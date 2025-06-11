@@ -22,17 +22,10 @@ X_train_const = sm.add_constant(X_train)
 X_test_const = sm.add_constant(X_test)
 
 ```
-## Output
+R-squared (R²): Represents the proportion of variance explained by the model.
 
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                 Height   R-squared:                       0.736
-Model:                            OLS   Adj. R-squared:                  0.670
-Method:                 Least Squares   F-statistic:                     12.5
-Date:                YYYY-MM-DD HH:MM   Prob (F-statistic):           0.0023
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-const        156.4700      5.340     29.280      0.000     145.460     167.480
-Weight        17.2982      4.890      3.536      0.002       7.400      27.196
-==============================================================================
+Coefficients: Slopes for each independent variable.
+
+p-values: Statistical significance of coefficients.
+
+F-statistic: Overall model significance.
